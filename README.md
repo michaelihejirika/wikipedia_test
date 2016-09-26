@@ -4,8 +4,9 @@ Before running project, you'll need to:
 
 1. Install ruby '2.2.2' using a version manager like [RVM](https://rvm.io/rvm/install) or [rbenv](https://github.com/rbenv/rbenv)
 2. Install the project dependencies with `bundle install`
-3. Install [the correct version of Firefox](https://ftp.mozilla.org/pub/firefox/releases/43.0)
+3. Install [the correct version of Firefox](https://download-installer.cdn.mozilla.net/pub/firefox/releases/43.0/)
 
+It is important that the test is ran using the correct firefox version above. My understanding is that selenium webdrivers have not been updated for later versions of firefox.[Selenium updates](http://www.seleniumhq.org/about/platforms.jsp)
 
 Running the all the tests using the default browser:
 ```
